@@ -76,7 +76,7 @@ ul {
     height: 50px;
     outline: none;
     border: 0;
-    font-family: PSB;
+    font-family: "Quattrocento Sans", sans-serif;
     color: #ffffff;
     font-weight: bold;
     font-size: 12px;
@@ -92,6 +92,8 @@ ul {
     transition: all 0.3s;
     border-radius: 4px;
     background: #3c5629;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 .fill-btn:hover {
     border-radius: 4px;
@@ -103,6 +105,10 @@ ul {
 
 header {
     height: 60px;
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    z-index: 1;
 }
 
 header .header-flex {
@@ -304,6 +310,65 @@ section.bg-imagebanner {
 .banner-contents h1 {
     color: #fff;
     margin-bottom: 56px;
+}
+
+/* Product Info Section CSS */
+
+section.product-info-in {
+    padding-top: 62px;
+    padding-bottom: 62px;
+}
+
+section.product-info-in img {
+    width: 320px;
+    height: 320px;
+    object-fit: contain;
+}
+
+/* Video Section CSS */
+
+section.standalone-videoin video[poster] {
+    height: 100%;
+    width: 100%;
+}
+
+section.standalone-videoin .video-wrapper {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+section.standalone-videoin .video-wrapper > video {
+    width: 100%;
+    vertical-align: middle;
+    height: 100vh;
+}
+
+section.standalone-videoin .video-wrapper > video.has-media-controls-hidden::-webkit-media-controls {
+    display: none;
+}
+
+section.standalone-videoin .video-overlay-play-button {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 10px calc(50% - 50px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    opacity: 0.95;
+    cursor: pointer;
+    background-image: linear-gradient(transparent, #000);
+    transition: opacity 150ms;
+}
+
+section.standalone-videoin .video-overlay-play-button:hover {
+    opacity: 1;
+}
+
+section.standalone-videoin .video-overlay-play-button.is-hidden {
+    display: none;
 }
 
 @media (min-width: 1200px) {

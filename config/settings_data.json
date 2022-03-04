@@ -9,18 +9,51 @@
         "type": "hero-banner",
         "settings": {
           "image": "shopify:\/\/shop_images\/Banner.png",
+          "title": "Life is better with Buddha Bhaang",
+          "description": "<p>Example Paragraph<\/p>",
+          "button_label": "SHOP NOW",
+          "button_link": "shopify:\/\/products\/t-shirt"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {}
+      },
+      "product-info": {
+        "type": "product-info",
+        "settings": {
+          "pinfo_image": "shopify:\/\/shop_images\/Product_Image.png",
+          "pinfo_title": "Buddha Bhaang Organic Gold Label Cones",
+          "pifno_description": "<p>Sometimes a Kingsize Cone just won’t cut it. The Buddha Bhaang Classic Peacemaker Cone is about 30% bigger than a Kingsize Cone for those times you really just want to smoke out! Buddha Bhaang Classic Peacemaker Cone<\/p>",
+          "pinfo_button_label": "VIEW PRODUCT",
+          "pinfo_button_link": "shopify:\/\/pages\/contact"
+        }
+      },
+      "1646315329aafad180": {
+        "type": "hero-banner",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Banner.png",
           "title": "Example Heading",
           "description": "<p>Example Paragraph<\/p>",
           "button_label": "Button",
           "button_link": ""
         }
       },
-      "footer": {
-        "type": "footer",
-        "settings": {}
+      "1646315332713f0960": {
+        "type": "product-info",
+        "settings": {
+          "pinfo_image": "shopify:\/\/shop_images\/Product_Image.png",
+          "pinfo_title": "Buddha Bhaang Organic Gold Label Cones",
+          "pifno_description": "<p>Sometimes a Kingsize Cone just won’t cut it. The Buddha Bhaang Classic Peacemaker Cone is about 30% bigger than a Kingsize Cone for those times you really just want to smoke out! Buddha Bhaang Classic Peacemaker Cone<\/p>",
+          "pinfo_button_label": "VIEW PRODUCT",
+          "pinfo_button_link": ""
+        }
       }
     },
-    "content_for_index": []
+    "content_for_index": [
+      "1646315329aafad180",
+      "1646315332713f0960"
+    ]
   },
   "presets": {
     "Default": {}

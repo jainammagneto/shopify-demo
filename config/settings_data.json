@@ -3,7 +3,8 @@
     "sections": {
       "header": {
         "type": "header",
-        "settings": {}
+        "settings": {
+        }
       },
       "hero-banner": {
         "type": "hero-banner",
@@ -17,7 +18,8 @@
       },
       "footer": {
         "type": "footer",
-        "settings": {}
+        "settings": {
+        }
       },
       "product-info": {
         "type": "product-info",
@@ -56,6 +58,7 @@
     ]
   },
   "presets": {
-    "Default": {}
+    "Default": {
+    }
   }
 }

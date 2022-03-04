@@ -1,0 +1,28 @@
+{
+  "current": {
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {}
+      },
+      "hero-banner": {
+        "type": "hero-banner",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Banner.png",
+          "title": "Example Heading",
+          "description": "<p>Example Paragraph<\/p>",
+          "button_label": "Button",
+          "button_link": ""
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {}
+      }
+    },
+    "content_for_index": []
+  },
+  "presets": {
+    "Default": {}
+  }
+}

@@ -1,0 +1,15 @@
+:root {
+  --high: #212b36;
+  --mid: #637381;
+  --low: #919eab;
+  --darkmid: #cccdd7;
+  --darklow: #919eab;
+  --line: #cccccc;
+  --success: #3eb658;
+  --error: #f94c43;
+  --primary: #8d1d58;
+  --secondary: #402020;
+  --surface: #fcf7f7;
+  --white: #ffffff;
+  --green: #3c5629;
+}

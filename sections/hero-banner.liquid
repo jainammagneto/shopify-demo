@@ -1,0 +1,60 @@
+{% assign myImage = section.settings.image | img_url:"master" %}
+<section class="bg-imagebanner">
+    <div class=" container">
+        <div class="banner-contents">
+            <h1>{{ section.settings.title }}</h1>
+            <a href="{{ section.settings.button_link }}" class="fill-btn">{{ section.settings.button_label
+                }}</a>
+        </div>
+    </div>
+</section>
+
+<style>
+    .bg-imagebanner {
+        background-image: url({{myImage}});
+    }
+</style>
+
+
+{% schema %}
+{
+"name": "Hero",
+"class": "hero-section",
+"settings": [
+{
+"type": "image_picker",
+"id": "image",
+"label": "Heading Background Title"
+},
+{
+"type": "text",
+"id": "title",
+"default": "Example Heading",
+"label": "Heading Title"
+},
+{
+"type": "richtext",
+"id": "description",
+"default": "<p>Example Paragraph</p>",
+"label": "Heading Description"
+},
+{
+"type": "text",
+"id": "button_label",
+"default": "Button",
+"label": "Heading Button Label"
+},
+{
+"type": "url",
+"id": "button_link",
+"label": "Heading Button Link"
+}
+],
+"presets": [
+{
+"category": "Hero",
+"name":"Simple Hero"
+}
+]
+}
+{% endschema %}
